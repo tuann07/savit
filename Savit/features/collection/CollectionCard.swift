@@ -21,7 +21,7 @@ struct CollectionCard: View {
                 .overlay(
                     Rectangle().fill(
                         LinearGradient(gradient:
-                                        Gradient(colors: [.white.opacity(0), ColorConstants.primary.opacity(0.9)]),startPoint: .top,endPoint: .bottom))
+                                        Gradient(colors: [.white.opacity(0), ColorConstants.secondary.opacity(0.9)]),startPoint: .top,endPoint: .bottom))
                 )
                 .cornerRadius(10)
             

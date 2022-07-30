@@ -22,6 +22,10 @@ struct CollectionScreen: View {
                 
                 Divider()
                 Spacer()
+                
+                Text("Save it. Forget it. We remind you.")
+                    .foregroundColor(ColorConstants.primary)
+                    .padding(.bottom)
             }
         }
     }

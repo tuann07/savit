@@ -12,8 +12,8 @@ struct CollectionList: View {
         ScrollView(.horizontal) {
             HStack {
                 CollectionCard(image: Image("vo-nguyen-giap"), title: "Vo Nguyen Giap", period: "3000 - 3100")
-                CollectionCard(image: Image("vo-nguyen-giap"), title: "Vo Nguyen Giap", period: "3000 - 3100")
-                CollectionCard(image: Image("vo-nguyen-giap"), title: "Vo Nguyen Giap", period: "3000 - 3100")
+                CollectionCard(image: Image("ho-chi-minh"), title: "Ho Chi Minh", period: "3000 - 3100")
+                CollectionCard(image: Image("ton-that-tung"), title: "Ton That Tung", period: "3000 - 3100")
             }
         }
     }
