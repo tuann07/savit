@@ -9,7 +9,21 @@ import SwiftUI
 
 struct CollectionScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            ColorConstants.background.ignoresSafeArea()
+            
+            VStack {
+                ScreenTitle(text: "Your Collections").padding(.top)
+                
+                Spacer()
+                Divider()
+                
+                CollectionList()
+                
+                Divider()
+                Spacer()
+            }
+        }
     }
 }
 

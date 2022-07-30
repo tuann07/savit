@@ -22,6 +22,7 @@
 		D362A829289522B400816AC9 /* ScreenTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A828289522B400816AC9 /* ScreenTitle.swift */; };
 		D362A82C2895233900816AC9 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A82B2895233900816AC9 /* WelcomeScreen.swift */; };
 		D362A8302895250700816AC9 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A82F2895250700816AC9 /* ColorConstants.swift */; };
+		D362A83228953FC600816AC9 /* CollectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A83128953FC600816AC9 /* CollectionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D362A828289522B400816AC9 /* ScreenTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTitle.swift; sourceTree = "<group>"; };
 		D362A82B2895233900816AC9 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		D362A82F2895250700816AC9 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		D362A83128953FC600816AC9 /* CollectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				D362A8232895227200816AC9 /* CollectionCard.swift */,
+				D362A83128953FC600816AC9 /* CollectionList.swift */,
 			);
 			path = collection;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				D362A826289522A200816AC9 /* TimelinePill.swift in Sources */,
 				D362A8222895225E00816AC9 /* DetailScreen.swift in Sources */,
 				D362A8302895250700816AC9 /* ColorConstants.swift in Sources */,
+				D362A83228953FC600816AC9 /* CollectionList.swift in Sources */,
 				D362A82C2895233900816AC9 /* WelcomeScreen.swift in Sources */,
 				D362A8242895227200816AC9 /* CollectionCard.swift in Sources */,
 				D362A7F12895206D00816AC9 /* ContentView.swift in Sources */,

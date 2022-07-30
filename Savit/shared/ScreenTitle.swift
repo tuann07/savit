@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct ScreenTitle: View {
+    var text: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(text)
+            .font(.system(.largeTitle))
+            .fontWeight(.bold)
+            .foregroundColor(ColorConstants.primary)
     }
 }
 
 struct Title_Previews: PreviewProvider {
     static var previews: some View {
-        ScreenTitle()
+        ScreenTitle(text: "Hello World")
     }
 }
