@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isWelcome: Bool = true
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            if isWelcome {
+                WelcomeScreen(active: $isWelcome)
+            } else {
+                CollectionScreen()
+            }
+        }
     }
 }
 

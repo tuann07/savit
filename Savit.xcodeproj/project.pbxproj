@@ -14,6 +14,14 @@
 		D362A8002895206E00816AC9 /* SavitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A7FF2895206E00816AC9 /* SavitTests.swift */; };
 		D362A80A2895206F00816AC9 /* SavitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A8092895206F00816AC9 /* SavitUITests.swift */; };
 		D362A80C2895206F00816AC9 /* SavitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A80B2895206F00816AC9 /* SavitUITestsLaunchTests.swift */; };
+		D362A81E2895224700816AC9 /* CollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A81D2895224700816AC9 /* CollectionScreen.swift */; };
+		D362A8202895225100816AC9 /* TimelineScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A81F2895225100816AC9 /* TimelineScreen.swift */; };
+		D362A8222895225E00816AC9 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A8212895225E00816AC9 /* DetailScreen.swift */; };
+		D362A8242895227200816AC9 /* CollectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A8232895227200816AC9 /* CollectionCard.swift */; };
+		D362A826289522A200816AC9 /* TimelinePill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A825289522A200816AC9 /* TimelinePill.swift */; };
+		D362A829289522B400816AC9 /* ScreenTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A828289522B400816AC9 /* ScreenTitle.swift */; };
+		D362A82C2895233900816AC9 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A82B2895233900816AC9 /* WelcomeScreen.swift */; };
+		D362A8302895250700816AC9 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A82F2895250700816AC9 /* ColorConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		D362A8052895206F00816AC9 /* SavitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D362A8092895206F00816AC9 /* SavitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavitUITests.swift; sourceTree = "<group>"; };
 		D362A80B2895206F00816AC9 /* SavitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D362A81D2895224700816AC9 /* CollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionScreen.swift; sourceTree = "<group>"; };
+		D362A81F2895225100816AC9 /* TimelineScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineScreen.swift; sourceTree = "<group>"; };
+		D362A8212895225E00816AC9 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		D362A8232895227200816AC9 /* CollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCard.swift; sourceTree = "<group>"; };
+		D362A825289522A200816AC9 /* TimelinePill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinePill.swift; sourceTree = "<group>"; };
+		D362A828289522B400816AC9 /* ScreenTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTitle.swift; sourceTree = "<group>"; };
+		D362A82B2895233900816AC9 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		D362A82F2895250700816AC9 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,10 @@
 		D362A7ED2895206D00816AC9 /* Savit */ = {
 			isa = PBXGroup;
 			children = (
+				D362A82E289524DF00816AC9 /* models */,
+				D362A827289522A600816AC9 /* shared */,
+				D362A81B2895222100816AC9 /* screens */,
+				D362A8182895220500816AC9 /* features */,
 				D362A7EE2895206D00816AC9 /* SavitApp.swift */,
 				D362A7F02895206D00816AC9 /* ContentView.swift */,
 				D362A7F22895206E00816AC9 /* Assets.xcassets */,
@@ -125,6 +145,66 @@
 				D362A80B2895206F00816AC9 /* SavitUITestsLaunchTests.swift */,
 			);
 			path = SavitUITests;
+			sourceTree = "<group>";
+		};
+		D362A8182895220500816AC9 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				D362A82D2895234900816AC9 /* welcome */,
+				D362A81A2895221500816AC9 /* timeline */,
+				D362A8192895220B00816AC9 /* collection */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		D362A8192895220B00816AC9 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				D362A8232895227200816AC9 /* CollectionCard.swift */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		D362A81A2895221500816AC9 /* timeline */ = {
+			isa = PBXGroup;
+			children = (
+				D362A825289522A200816AC9 /* TimelinePill.swift */,
+			);
+			path = timeline;
+			sourceTree = "<group>";
+		};
+		D362A81B2895222100816AC9 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				D362A81D2895224700816AC9 /* CollectionScreen.swift */,
+				D362A81F2895225100816AC9 /* TimelineScreen.swift */,
+				D362A82B2895233900816AC9 /* WelcomeScreen.swift */,
+				D362A8212895225E00816AC9 /* DetailScreen.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		D362A827289522A600816AC9 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				D362A828289522B400816AC9 /* ScreenTitle.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		D362A82D2895234900816AC9 /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = welcome;
+			sourceTree = "<group>";
+		};
+		D362A82E289524DF00816AC9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D362A82F2895250700816AC9 /* ColorConstants.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D362A829289522B400816AC9 /* ScreenTitle.swift in Sources */,
+				D362A826289522A200816AC9 /* TimelinePill.swift in Sources */,
+				D362A8222895225E00816AC9 /* DetailScreen.swift in Sources */,
+				D362A8302895250700816AC9 /* ColorConstants.swift in Sources */,
+				D362A82C2895233900816AC9 /* WelcomeScreen.swift in Sources */,
+				D362A8242895227200816AC9 /* CollectionCard.swift in Sources */,
 				D362A7F12895206D00816AC9 /* ContentView.swift in Sources */,
+				D362A81E2895224700816AC9 /* CollectionScreen.swift in Sources */,
+				D362A8202895225100816AC9 /* TimelineScreen.swift in Sources */,
 				D362A7EF2895206D00816AC9 /* SavitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
