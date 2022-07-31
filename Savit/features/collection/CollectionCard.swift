@@ -13,30 +13,26 @@ struct CollectionCard: View {
     var period: String
     
     var body: some View {
-        ZStack {
-            image
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 300, height: 400, alignment: .center)
-                .overlay(
-                    Rectangle().fill(
-                        LinearGradient(gradient:
-                                        Gradient(colors: [.white.opacity(0), ColorConstants.secondary.opacity(0.9)]),startPoint: .top,endPoint: .bottom))
-                )
-                .cornerRadius(10)
-            
-            VStack {
-                Spacer()
-                Group {
-                    Text(title)
-                        .fontWeight(.bold)
-                    Text(period)
-                        .font(.system(size: 14))
-                }.foregroundColor(.white.opacity(0.9))
-            }.padding(.bottom)
-            
-        }.frame(width: 300, height: 400, alignment: .center)
-        
+        image
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(width: 300, height: 400, alignment: .center)
+            .overlay(
+                ZStack {
+                    LinearGradient(gradient:
+                                    Gradient(colors: [.white.opacity(0), ColorConstants.secondary.opacity(0.9)]),startPoint: .top,endPoint: .bottom)
+                    
+                    VStack {
+                        Spacer()
+                        Group {
+                            Text(title)
+                                .fontWeight(.bold)
+                            Text(period)
+                                .font(.system(size: 14))
+                        }.foregroundColor(.white.opacity(0.9))
+                    }.padding(.bottom)
+                })
+            .cornerRadius(10)
     }
 }
 
