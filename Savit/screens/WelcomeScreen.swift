@@ -10,7 +10,7 @@ import SwiftUI
 struct WelcomeScreen: View {
     @Binding var active: Bool
     
-    var body: some View {	
+    var body: some View {
         ZStack{
             ColorConstants.background.ignoresSafeArea(.all, edges: .all)
             
@@ -26,11 +26,11 @@ struct WelcomeScreen: View {
                     Text("""
                         Keep your memories safe here
                         """)
-                        .font(.title3)
-                        .fontWeight(.light)
-                        .foregroundColor(ColorConstants.primary)
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal, 10)
+                    .font(.title3)
+                    .fontWeight(.light)
+                    .foregroundColor(ColorConstants.primary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 10)
                     
                     
                 }
@@ -42,12 +42,12 @@ struct WelcomeScreen: View {
                 }, label: {
                     Capsule()
                         .fill(ColorConstants.secondary)
-                        .padding(8)
-                        .frame(height:80)
+                        .padding(16.0)
+                        .frame(height: 95)
                         .overlay(Text("Get Started")
-                                    .font(.system(.title3))
-                                    .fontWeight(.bold)
-                                    .foregroundColor(.white))
+                            .font(.system(.title3))
+                            .fontWeight(.bold)
+                            .foregroundColor(.white))
                 })
             }
         }

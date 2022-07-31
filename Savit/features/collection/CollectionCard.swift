@@ -11,12 +11,15 @@ struct CollectionCard: View {
     var image: Image
     var title: String
     var period: String
+    var width: CGFloat = 300
+    var height: CGFloat = 400
+    var radius: CGFloat = 10
     
     var body: some View {
         image
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: 300, height: 400, alignment: .center)
+            .frame(width: width, height: height, alignment: .center)
             .overlay(
                 ZStack {
                     LinearGradient(gradient:
@@ -32,7 +35,7 @@ struct CollectionCard: View {
                         }.foregroundColor(.white.opacity(0.9))
                     }.padding(.bottom)
                 })
-            .cornerRadius(10)
+            .cornerRadius(radius)
     }
 }
 

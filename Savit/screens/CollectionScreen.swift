@@ -9,23 +9,30 @@ import SwiftUI
 
 struct CollectionScreen: View {
     var body: some View {
-        ZStack {
-            ColorConstants.background.ignoresSafeArea()
-            
-            VStack {
-                ScreenTitle(text: "Your Collections").padding(.top)
+        NavigationView {
+            ZStack {
+                ColorConstants.background.ignoresSafeArea()
                 
-                Spacer()
-                Divider()
+                VStack {
+                    VStack {
+                        ScreenTitle(text: "Your Collections").padding(.top)
+                        
+                        Spacer()
+                        Divider()
+                        
+                        CollectionList()
+                        
+                        Divider()
+                        Spacer()
+                        
+                        Text("Save it. Forget it.")
+                            .foregroundColor(ColorConstants.primary)
+                            .padding(.bottom)
+                    }
+                    
+                    Spacer()
+                }
                 
-                CollectionList()
-                
-                Divider()
-                Spacer()
-                
-                Text("Save it. Forget it. We remind you.")
-                    .foregroundColor(ColorConstants.primary)
-                    .padding(.bottom)
             }
         }
     }
