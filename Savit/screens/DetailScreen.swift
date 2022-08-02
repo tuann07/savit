@@ -14,7 +14,7 @@ struct DetailScreen: View {
     var body: some View {
         TabView {
             ZStack {
-                ColorConstants.background.ignoresSafeArea()
+                ColorConstants.background.ignoresSafeArea(.all)
                 
                 VStack {
                     HStack {

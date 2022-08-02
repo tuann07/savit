@@ -12,14 +12,14 @@ struct TimelineScreen: View {
     
     var body: some View {
         ZStack {
-            ColorConstants.background.ignoresSafeArea()
+            ColorConstants.background.ignoresSafeArea(.all)
             
             VStack {
                 Text("Timeline")
                     .font(.system(.largeTitle))
                     .fontWeight(.bold)
                     .foregroundColor(ColorConstants.primary)
-                Text("\(collection.title) - \(collection.period)")
+                Text("\(collection.title) | \(collection.period)")
                     .foregroundColor(ColorConstants.primary)
                     .padding(.bottom)
                 

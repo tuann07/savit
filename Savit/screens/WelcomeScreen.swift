@@ -12,7 +12,7 @@ struct WelcomeScreen: View {
     
     var body: some View {
         ZStack{
-            ColorConstants.background.ignoresSafeArea(.all, edges: .all)
+            ColorConstants.background.ignoresSafeArea(.all)
             
             VStack(spacing: 20){
                 Spacer()
@@ -23,16 +23,12 @@ struct WelcomeScreen: View {
                         .fontWeight(.heavy)
                         .foregroundColor(ColorConstants.primary)
                     
-                    Text("""
-                        Keep your memories safe here
-                        """)
-                    .font(.title3)
-                    .fontWeight(.light)
-                    .foregroundColor(ColorConstants.primary)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 10)
-                    
-                    
+                    Text("Keep your memories safe")
+                        .font(.title3)
+                        .fontWeight(.light)
+                        .foregroundColor(ColorConstants.primary)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 10)
                 }
                 
                 Spacer()

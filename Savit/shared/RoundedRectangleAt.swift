@@ -70,9 +70,9 @@ struct RoundedRectangleAt: View {
 struct RoundedRectangleAt_Previews: PreviewProvider {
     static var previews: some View {
         RoundedRectangleAt(
-            width: 150, height: 50, radius: 10,
+            width: 150, height: 50, radius: 20,
             tl: true, tr: false, br: true, bl: false,
             bgColor: ColorConstants.secondary,
-            text: Text("Hello"))
+            text: Text("Hello").foregroundColor(.white).bold())
     }
 }

@@ -11,7 +11,7 @@ struct CollectionScreen: View {
     var body: some View {
         NavigationView {
             ZStack {
-                ColorConstants.background.ignoresSafeArea()
+                ColorConstants.background.ignoresSafeArea(.all)
                 
                 VStack {
                     Text("Your Collections")
