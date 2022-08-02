@@ -9,6 +9,8 @@ import SwiftUI
 import CoreLocation
 
 struct DetailScreen: View {
+    var timeline: Timeline
+    
     var body: some View {
         TabView {
             ZStack {
@@ -16,27 +18,9 @@ struct DetailScreen: View {
                 
                 VStack {
                     HStack {
-                        Text("Lorem ipsum dolor sit amet.")
-                            .fontWeight(.bold)
-                            .padding([.top, .leading])
-                        Spacer()
-                    }
-                    
-                    HStack {
-                        Text("""
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend, leo sed dapibus blandit, enim neque pretium enim, non ornare ex quam sed tortor. Sed porta erat vel viverra mattis. Praesent molestie placerat risus ac fermentum. Phasellus vel auctor purus, at facilisis mi. Curabitur vitae urna et lectus convallis fringilla. Ut in blandit est. Nulla mi enim, posuere quis lacus nec, pellentesque viverra lacus.
-                            """)
-                        .font(.system(size: 14))
-                        .padding([.top, .leading])
-                        Spacer()
-                    }
-                    
-                    HStack {
-                        Text("""
-                            Aliquam a pharetra tortor, sit amet tincidunt tortor. Aliquam lacinia nunc quis sollicitudin gravida. Sed quis iaculis leo, sed ullamcorper quam. Phasellus mollis magna non ultricies placerat.
-                            """)
-                        .font(.system(size: 14))
-                        .padding([.top, .leading])
+                        Text(timeline.note)
+                            .font(.system(size: 14))
+                            .padding(.horizontal)
                         Spacer()
                     }
                     
@@ -51,24 +35,20 @@ struct DetailScreen: View {
             ZStack {
                 ColorConstants.background.ignoresSafeArea()
                 
-                MapView(coordinate: CLLocationCoordinate2D(
-                    latitude: 9.768860480547627,
-                    longitude: 105.56465951247152
-                )).edgesIgnoringSafeArea(.top)
+                MapView(coordinate: timeline.locationCoordinate).edgesIgnoringSafeArea(.top)
             }
             .tabItem {
                 Image(systemName: "map.fill")
                 Text("Map")
             }
         }
-        .navigationTitle("")
+        .navigationTitle("\(timeline.title) - \(timeline.period)")
         .navigationBarTitleDisplayMode(.inline)
-        .navigationBarHidden(true)
     }
 }
 
 struct DetailScreen_Previews: PreviewProvider {
     static var previews: some View {
-        DetailScreen()
+        DetailScreen(timeline: collections[0].timelines[0])
     }
 }

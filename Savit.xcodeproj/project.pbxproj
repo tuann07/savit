@@ -23,6 +23,9 @@
 		D362A8302895250700816AC9 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A82F2895250700816AC9 /* ColorConstants.swift */; };
 		D362A83228953FC600816AC9 /* CollectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A83128953FC600816AC9 /* CollectionList.swift */; };
 		D3D33F8E289691A5005CB217 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D33F8D289691A5005CB217 /* MapView.swift */; };
+		D3D64E43289912D60009631C /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D64E42289912D60009631C /* Collection.swift */; };
+		D3D64E45289913BC0009631C /* decodeJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D64E44289913BC0009631C /* decodeJson.swift */; };
+		D3D64E47289914120009631C /* collections.json in Resources */ = {isa = PBXBuildFile; fileRef = D3D64E46289914120009631C /* collections.json */; };
 		D3F667C8289679F1006BCEB0 /* TimelineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F667C7289679F1006BCEB0 /* TimelineList.swift */; };
 		D3F667CA28968662006BCEB0 /* RoundedRectangleAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F667C928968662006BCEB0 /* RoundedRectangleAt.swift */; };
 /* End PBXBuildFile section */
@@ -64,6 +67,9 @@
 		D362A82F2895250700816AC9 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		D362A83128953FC600816AC9 /* CollectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionList.swift; sourceTree = "<group>"; };
 		D3D33F8D289691A5005CB217 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D3D64E42289912D60009631C /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		D3D64E44289913BC0009631C /* decodeJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decodeJson.swift; sourceTree = "<group>"; };
+		D3D64E46289914120009631C /* collections.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = collections.json; sourceTree = "<group>"; };
 		D3F667C7289679F1006BCEB0 /* TimelineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineList.swift; sourceTree = "<group>"; };
 		D3F667C928968662006BCEB0 /* RoundedRectangleAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleAt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +210,9 @@
 			isa = PBXGroup;
 			children = (
 				D362A82F2895250700816AC9 /* ColorConstants.swift */,
+				D3D64E42289912D60009631C /* Collection.swift */,
+				D3D64E46289914120009631C /* collections.json */,
+				D3D64E44289913BC0009631C /* decodeJson.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -312,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D64E47289914120009631C /* collections.json in Resources */,
 				D362A7F62895206E00816AC9 /* Preview Assets.xcassets in Resources */,
 				D362A7F32895206E00816AC9 /* Assets.xcassets in Resources */,
 			);
@@ -343,6 +353,7 @@
 				D362A8222895225E00816AC9 /* DetailScreen.swift in Sources */,
 				D362A8302895250700816AC9 /* ColorConstants.swift in Sources */,
 				D3F667CA28968662006BCEB0 /* RoundedRectangleAt.swift in Sources */,
+				D3D64E43289912D60009631C /* Collection.swift in Sources */,
 				D362A83228953FC600816AC9 /* CollectionList.swift in Sources */,
 				D3D33F8E289691A5005CB217 /* MapView.swift in Sources */,
 				D362A82C2895233900816AC9 /* WelcomeScreen.swift in Sources */,
@@ -350,6 +361,7 @@
 				D362A7F12895206D00816AC9 /* ContentView.swift in Sources */,
 				D362A81E2895224700816AC9 /* CollectionScreen.swift in Sources */,
 				D362A8202895225100816AC9 /* TimelineScreen.swift in Sources */,
+				D3D64E45289913BC0009631C /* decodeJson.swift in Sources */,
 				D362A7EF2895206D00816AC9 /* SavitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct CollectionCard: View {
-    var image: Image
-    var title: String
-    var period: String
-    var width: CGFloat = 300
-    var height: CGFloat = 400
-    var radius: CGFloat = 10
+    var collection: Collection
+    
+    let width: CGFloat = 300
+    let height: CGFloat = 400
+    let radius: CGFloat = 10
     
     var body: some View {
-        image
+        collection.image
             .resizable()
             .aspectRatio(contentMode: .fill)
             .frame(width: width, height: height, alignment: .center)
@@ -28,9 +27,9 @@ struct CollectionCard: View {
                     VStack {
                         Spacer()
                         Group {
-                            Text(title)
+                            Text(collection.title)
                                 .fontWeight(.bold)
-                            Text(period)
+                            Text(collection.period)
                                 .font(.system(size: 14))
                         }.foregroundColor(.white.opacity(0.9))
                     }.padding(.bottom)
@@ -41,6 +40,6 @@ struct CollectionCard: View {
 
 struct CollectionCard_Previews: PreviewProvider {
     static var previews: some View {
-        CollectionCard(image: Image("ho-chi-minh"), title: "Ho Chi Minh", period: "1900 - 1920")
+        CollectionCard(collection: collections[0])
     }
 }

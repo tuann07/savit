@@ -14,8 +14,20 @@ struct CollectionScreen: View {
                 ColorConstants.background.ignoresSafeArea()
                 
                 VStack {
-                    CollectionList()
-                        .navigationTitle("Your Collections")
+                    Text("Your Collections")
+                        .font(.system(.largeTitle))
+                        .fontWeight(.bold)
+                        .foregroundColor(ColorConstants.primary)
+                        .padding(.top, 50.0)
+                    
+                    Spacer()
+                    
+                    CollectionList(collections: collections)
+                        .navigationTitle("")
+                        .navigationBarTitleDisplayMode(.inline)
+                        .navigationBarHidden(true)
+                    
+                    Spacer()
                 }
             }
         }

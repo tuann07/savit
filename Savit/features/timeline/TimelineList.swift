@@ -8,43 +8,25 @@
 import SwiftUI
 
 struct TimelineList: View {
+    var timelines: [Timeline]
+    
     var body: some View {
         ScrollView(.vertical) {
             VStack {
-                Group {
+                ForEach(timelines) { timeline in
                     NavigationLink {
-                        DetailScreen()
+                        DetailScreen(timeline: timeline)
                     } label: {
-                        TimelinePill()
-                    }
-                    NavigationLink {
-                        DetailScreen()
-                    } label: {
-                        TimelinePill()
-                    }
-                    NavigationLink {
-                        DetailScreen()
-                    } label: {
-                        TimelinePill()
-                    }
-                    NavigationLink {
-                        DetailScreen()
-                    } label: {
-                        TimelinePill()
-                    }
-                    NavigationLink {
-                        DetailScreen()
-                    } label: {
-                        TimelinePill()
+                        TimelinePill(timeline: timeline)
                     }
                 }
-            }
+            }.padding(.horizontal)
         }
     }
 }
 
 struct TimelineList_Previews: PreviewProvider {
     static var previews: some View {
-        TimelineList()
+        TimelineList(timelines: collections[0].timelines)
     }
 }

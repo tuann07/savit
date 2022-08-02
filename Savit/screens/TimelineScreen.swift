@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct TimelineScreen: View {
+    var collection: Collection
+    
     var body: some View {
         ZStack {
             ColorConstants.background.ignoresSafeArea()
             
             VStack {
-                TimelineList()
-                    .navigationTitle("Timeline")
+                Text("Timeline")
+                    .font(.system(.largeTitle))
+                    .fontWeight(.bold)
+                    .foregroundColor(ColorConstants.primary)
+                Text("\(collection.title) - \(collection.period)")
+                    .foregroundColor(ColorConstants.primary)
+                    .padding(.bottom)
+                
+                TimelineList(timelines: collection.timelines)
+                    .navigationTitle("")
+                    .navigationBarTitleDisplayMode(.inline)
             }
         }
     }
@@ -22,6 +33,6 @@ struct TimelineScreen: View {
 
 struct TimelineScreen_Previews: PreviewProvider {
     static var previews: some View {
-        TimelineScreen()
+        TimelineScreen(collection: collections[0])
     }
 }

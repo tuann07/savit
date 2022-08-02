@@ -8,32 +8,26 @@
 import SwiftUI
 
 struct CollectionList: View {
+    var collections: [Collection]
+    
     var body: some View {
         
         ScrollView(.horizontal) {
             HStack {
-                NavigationLink{
-                    TimelineScreen()
-                } label: {
-                    CollectionCard(image: Image("vo-nguyen-giap"), title: "Vo Nguyen Giap", period: "3000 - 3100")
+                ForEach(collections) { collection in
+                    NavigationLink{
+                        TimelineScreen(collection: collection)
+                    } label: {
+                        CollectionCard(collection: collection)
+                    }
                 }
-                NavigationLink{
-                    TimelineScreen()
-                } label: {
-                    CollectionCard(image: Image("ho-chi-minh"), title: "Ho Chi Minh", period: "3000 - 3100")
-                }
-                NavigationLink{
-                    TimelineScreen()
-                } label: {
-                    CollectionCard(image: Image("ton-that-tung"), title: "Ton That Tung", period: "3000 - 3100")
-                }
-            }
+            }.padding(.horizontal)
         }
     }
 }
 
 struct CollectionList_Previews: PreviewProvider {
     static var previews: some View {
-        CollectionList()
+        CollectionList(collections: collections)
     }
 }

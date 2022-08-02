@@ -8,22 +8,23 @@
 import SwiftUI
 
 struct TimelinePill: View {
+    var timeline: Timeline
+    
     let radius: CGFloat = 10
     let height: CGFloat = 70
-    let width: CGFloat = 330
     
     var body: some View {
         RoundedRectangle(cornerRadius: radius)
             .fill(ColorConstants.secondary)
-            .frame(width: width, height: height, alignment: .center)
+            .frame(height: height, alignment: .center)
             .overlay(
                 VStack {
                     HStack {
                         RoundedRectangleAt(
-                            width: width * 2/3, height: height / 2,
+                            width: 220, height: height / 2,
                             radius: radius, tl: true, tr: false, br: true, bl: false,
                             bgColor: ColorConstants.tertiary,
-                            text: Text("1900 - 1920")
+                            text: Text(timeline.period)
                                 .foregroundColor(.white)
                                 .font(.system(size: 14))
                                 .fontWeight(.bold)
@@ -37,7 +38,7 @@ struct TimelinePill: View {
                     Rectangle()
                         .fill(.white.opacity(0))
                         .overlay(
-                            Text("Viet Nam")
+                            Text(timeline.title)
                                 .fontWeight(.bold)
                                 .padding(.bottom, 10.0)
                                 .foregroundColor(.black.opacity(0.8))
@@ -49,6 +50,6 @@ struct TimelinePill: View {
 
 struct TimelinePill_Previews: PreviewProvider {
     static var previews: some View {
-        TimelinePill()
+        TimelinePill(timeline: collections[0].timelines[0])
     }
 }
