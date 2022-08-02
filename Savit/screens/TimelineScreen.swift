@@ -15,7 +15,7 @@ struct TimelineScreen: View {
             ColorConstants.background.ignoresSafeArea(.all)
             
             VStack {
-                Text("Timeline")
+                Text("Events")
                     .font(.system(.largeTitle))
                     .fontWeight(.bold)
                     .foregroundColor(ColorConstants.primary)
