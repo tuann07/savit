@@ -9,15 +9,12 @@ import SwiftUI
 
 struct TimelineScreen: View {
     var body: some View {
-        NavigationView {
-            ZStack {
-                ColorConstants.background.ignoresSafeArea()
-                
-                VStack {
-                    ScreenTitle(text: "Timeline").padding(.vertical)
-                    
-                    TimelineList()
-                }
+        ZStack {
+            ColorConstants.background.ignoresSafeArea()
+            
+            VStack {
+                TimelineList()
+                    .navigationTitle("Timeline")
             }
         }
     }

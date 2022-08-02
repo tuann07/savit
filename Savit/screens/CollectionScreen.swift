@@ -14,25 +14,9 @@ struct CollectionScreen: View {
                 ColorConstants.background.ignoresSafeArea()
                 
                 VStack {
-                    VStack {
-                        ScreenTitle(text: "Your Collections").padding(.top)
-                        
-                        Spacer()
-                        Divider()
-                        
-                        CollectionList()
-                        
-                        Divider()
-                        Spacer()
-                        
-                        Text("Save it. Forget it.")
-                            .foregroundColor(ColorConstants.primary)
-                            .padding(.bottom)
-                    }
-                    
-                    Spacer()
+                    CollectionList()
+                        .navigationTitle("Your Collections")
                 }
-                
             }
         }
     }

@@ -42,11 +42,8 @@ struct TimelinePill: View {
                                 .padding(.bottom, 10.0)
                                 .foregroundColor(.black.opacity(0.8))
                         )
-                    
-                    
                 }
             )
-        
     }
 }
 

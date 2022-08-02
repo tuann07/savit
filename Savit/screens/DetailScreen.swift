@@ -61,6 +61,9 @@ struct DetailScreen: View {
                 Text("Map")
             }
         }
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarHidden(true)
     }
 }
 

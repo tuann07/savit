@@ -23,7 +23,7 @@ struct CollectionCard: View {
             .overlay(
                 ZStack {
                     LinearGradient(gradient:
-                                    Gradient(colors: [.white.opacity(0), ColorConstants.secondary.opacity(0.9)]),startPoint: .top,endPoint: .bottom)
+                                    Gradient(colors: [.white.opacity(0), .white.opacity(0), ColorConstants.secondary.opacity(0.9)]),startPoint: .top,endPoint: .bottom)
                     
                     VStack {
                         Spacer()
