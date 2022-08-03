@@ -13,7 +13,7 @@ import CoreLocation
 struct Collection: Identifiable, Codable {
     var id: Int
     var title, period, imageName: String
-    var timelines: [Timeline]
+    var events: [Event]
     
     var image: Image {
         Image(imageName)
@@ -21,7 +21,7 @@ struct Collection: Identifiable, Codable {
 }
 
 // MARK: - Timeline
-struct Timeline: Identifiable, Codable {
+struct Event: Identifiable, Codable {
     var id: Int
     var title, period, note: String
     var coordinates: Coordinates

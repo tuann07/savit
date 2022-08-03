@@ -16,7 +16,7 @@ struct CollectionList: View {
             HStack {
                 ForEach(collections) { collection in
                     NavigationLink{
-                        TimelineScreen(collection: collection)
+                        EventScreen(collection: collection)
                     } label: {
                         CollectionCard(collection: collection)
                     }

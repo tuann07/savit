@@ -9,7 +9,7 @@ import SwiftUI
 import CoreLocation
 
 struct DetailScreen: View {
-    var timeline: Timeline
+    var event: Event
     
     var body: some View {
         TabView {
@@ -18,7 +18,8 @@ struct DetailScreen: View {
                 
                 VStack {
                     HStack {
-                        Text(timeline.note)
+                        Text(event.note)
+                            .fontWeight(.light)
                             .font(.system(size: 14))
                             .padding(.horizontal)
                         Spacer()
@@ -35,20 +36,20 @@ struct DetailScreen: View {
             ZStack {
                 ColorConstants.background.ignoresSafeArea()
                 
-                MapView(coordinate: timeline.locationCoordinate).edgesIgnoringSafeArea(.top)
+                MapView(coordinate: event.locationCoordinate).edgesIgnoringSafeArea(.top)
             }
             .tabItem {
                 Image(systemName: "map.fill")
                 Text("Map")
             }
         }
-        .navigationTitle("\(timeline.title) - \(timeline.period)")
+        .navigationTitle("\(event.title) - \(event.period)")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct DetailScreen_Previews: PreviewProvider {
     static var previews: some View {
-        DetailScreen(timeline: collections[0].timelines[0])
+        DetailScreen(event: collections[0].events[0])
     }
 }

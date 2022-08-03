@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct TimelineList: View {
-    var timelines: [Timeline]
+struct EventList: View {
+    var events: [Event]
     
     var body: some View {
         ScrollView(.vertical) {
             VStack {
-                ForEach(timelines) { timeline in
+                ForEach(events) { event in
                     NavigationLink {
-                        DetailScreen(timeline: timeline)
+                        DetailScreen(event: event)
                     } label: {
-                        TimelinePill(timeline: timeline)
+                        EventPill(event: event)
                     }
                 }
             }.padding(.horizontal)
@@ -27,6 +27,6 @@ struct TimelineList: View {
 
 struct TimelineList_Previews: PreviewProvider {
     static var previews: some View {
-        TimelineList(timelines: collections[0].timelines)
+        EventList(events: collections[0].events)
     }
 }

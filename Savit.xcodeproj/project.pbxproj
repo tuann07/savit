@@ -15,10 +15,10 @@
 		D362A80A2895206F00816AC9 /* SavitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A8092895206F00816AC9 /* SavitUITests.swift */; };
 		D362A80C2895206F00816AC9 /* SavitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A80B2895206F00816AC9 /* SavitUITestsLaunchTests.swift */; };
 		D362A81E2895224700816AC9 /* CollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A81D2895224700816AC9 /* CollectionScreen.swift */; };
-		D362A8202895225100816AC9 /* TimelineScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A81F2895225100816AC9 /* TimelineScreen.swift */; };
+		D362A8202895225100816AC9 /* EventScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A81F2895225100816AC9 /* EventScreen.swift */; };
 		D362A8222895225E00816AC9 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A8212895225E00816AC9 /* DetailScreen.swift */; };
 		D362A8242895227200816AC9 /* CollectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A8232895227200816AC9 /* CollectionCard.swift */; };
-		D362A826289522A200816AC9 /* TimelinePill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A825289522A200816AC9 /* TimelinePill.swift */; };
+		D362A826289522A200816AC9 /* EventPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A825289522A200816AC9 /* EventPill.swift */; };
 		D362A82C2895233900816AC9 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A82B2895233900816AC9 /* WelcomeScreen.swift */; };
 		D362A8302895250700816AC9 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A82F2895250700816AC9 /* ColorConstants.swift */; };
 		D362A83228953FC600816AC9 /* CollectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362A83128953FC600816AC9 /* CollectionList.swift */; };
@@ -26,7 +26,7 @@
 		D3D64E43289912D60009631C /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D64E42289912D60009631C /* Collection.swift */; };
 		D3D64E45289913BC0009631C /* decodeJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D64E44289913BC0009631C /* decodeJson.swift */; };
 		D3D64E47289914120009631C /* collections.json in Resources */ = {isa = PBXBuildFile; fileRef = D3D64E46289914120009631C /* collections.json */; };
-		D3F667C8289679F1006BCEB0 /* TimelineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F667C7289679F1006BCEB0 /* TimelineList.swift */; };
+		D3F667C8289679F1006BCEB0 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F667C7289679F1006BCEB0 /* EventList.swift */; };
 		D3F667CA28968662006BCEB0 /* RoundedRectangleAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F667C928968662006BCEB0 /* RoundedRectangleAt.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,10 +59,10 @@
 		D362A8092895206F00816AC9 /* SavitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavitUITests.swift; sourceTree = "<group>"; };
 		D362A80B2895206F00816AC9 /* SavitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D362A81D2895224700816AC9 /* CollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionScreen.swift; sourceTree = "<group>"; };
-		D362A81F2895225100816AC9 /* TimelineScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineScreen.swift; sourceTree = "<group>"; };
+		D362A81F2895225100816AC9 /* EventScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventScreen.swift; sourceTree = "<group>"; };
 		D362A8212895225E00816AC9 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 		D362A8232895227200816AC9 /* CollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCard.swift; sourceTree = "<group>"; };
-		D362A825289522A200816AC9 /* TimelinePill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinePill.swift; sourceTree = "<group>"; };
+		D362A825289522A200816AC9 /* EventPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPill.swift; sourceTree = "<group>"; };
 		D362A82B2895233900816AC9 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		D362A82F2895250700816AC9 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		D362A83128953FC600816AC9 /* CollectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionList.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		D3D64E42289912D60009631C /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		D3D64E44289913BC0009631C /* decodeJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decodeJson.swift; sourceTree = "<group>"; };
 		D3D64E46289914120009631C /* collections.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = collections.json; sourceTree = "<group>"; };
-		D3F667C7289679F1006BCEB0 /* TimelineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineList.swift; sourceTree = "<group>"; };
+		D3F667C7289679F1006BCEB0 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 		D3F667C928968662006BCEB0 /* RoundedRectangleAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleAt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +162,7 @@
 		D362A8182895220500816AC9 /* features */ = {
 			isa = PBXGroup;
 			children = (
-				D362A81A2895221500816AC9 /* timeline */,
+				D3C3CB81289A2CE000B879AA /* event */,
 				D362A8192895220B00816AC9 /* collection */,
 			);
 			path = features;
@@ -177,20 +177,11 @@
 			path = collection;
 			sourceTree = "<group>";
 		};
-		D362A81A2895221500816AC9 /* timeline */ = {
-			isa = PBXGroup;
-			children = (
-				D362A825289522A200816AC9 /* TimelinePill.swift */,
-				D3F667C7289679F1006BCEB0 /* TimelineList.swift */,
-			);
-			path = timeline;
-			sourceTree = "<group>";
-		};
 		D362A81B2895222100816AC9 /* screens */ = {
 			isa = PBXGroup;
 			children = (
 				D362A81D2895224700816AC9 /* CollectionScreen.swift */,
-				D362A81F2895225100816AC9 /* TimelineScreen.swift */,
+				D362A81F2895225100816AC9 /* EventScreen.swift */,
 				D362A82B2895233900816AC9 /* WelcomeScreen.swift */,
 				D362A8212895225E00816AC9 /* DetailScreen.swift */,
 			);
@@ -215,6 +206,15 @@
 				D3D64E44289913BC0009631C /* decodeJson.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		D3C3CB81289A2CE000B879AA /* event */ = {
+			isa = PBXGroup;
+			children = (
+				D362A825289522A200816AC9 /* EventPill.swift */,
+				D3F667C7289679F1006BCEB0 /* EventList.swift */,
+			);
+			path = event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,8 +348,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F667C8289679F1006BCEB0 /* TimelineList.swift in Sources */,
-				D362A826289522A200816AC9 /* TimelinePill.swift in Sources */,
+				D3F667C8289679F1006BCEB0 /* EventList.swift in Sources */,
+				D362A826289522A200816AC9 /* EventPill.swift in Sources */,
 				D362A8222895225E00816AC9 /* DetailScreen.swift in Sources */,
 				D362A8302895250700816AC9 /* ColorConstants.swift in Sources */,
 				D3F667CA28968662006BCEB0 /* RoundedRectangleAt.swift in Sources */,
@@ -360,7 +360,7 @@
 				D362A8242895227200816AC9 /* CollectionCard.swift in Sources */,
 				D362A7F12895206D00816AC9 /* ContentView.swift in Sources */,
 				D362A81E2895224700816AC9 /* CollectionScreen.swift in Sources */,
-				D362A8202895225100816AC9 /* TimelineScreen.swift in Sources */,
+				D362A8202895225100816AC9 /* EventScreen.swift in Sources */,
 				D3D64E45289913BC0009631C /* decodeJson.swift in Sources */,
 				D362A7EF2895206D00816AC9 /* SavitApp.swift in Sources */,
 			);

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TimelineScreen: View {
+struct EventScreen: View {
     var collection: Collection
     
     var body: some View {
@@ -23,7 +23,7 @@ struct TimelineScreen: View {
                     .foregroundColor(ColorConstants.primary)
                     .padding(.bottom)
                 
-                TimelineList(timelines: collection.timelines)
+                EventList(events: collection.events)
                     .navigationTitle("")
                     .navigationBarTitleDisplayMode(.inline)
             }
@@ -33,6 +33,6 @@ struct TimelineScreen: View {
 
 struct TimelineScreen_Previews: PreviewProvider {
     static var previews: some View {
-        TimelineScreen(collection: collections[0])
+        EventScreen(collection: collections[0])
     }
 }

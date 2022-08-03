@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct TimelinePill: View {
-    var timeline: Timeline
+struct EventPill: View {
+    var event: Event
     
     let radius: CGFloat = 10
     let height: CGFloat = 70
@@ -24,7 +24,7 @@ struct TimelinePill: View {
                             width: 220, height: height / 2,
                             radius: radius, tl: true, tr: false, br: true, bl: false,
                             bgColor: ColorConstants.tertiary,
-                            text: Text(timeline.period)
+                            text: Text(event.period)
                                 .foregroundColor(.white)
                                 .font(.system(size: 14))
                                 .fontWeight(.bold)
@@ -38,7 +38,7 @@ struct TimelinePill: View {
                     Rectangle()
                         .fill(.white.opacity(0))
                         .overlay(
-                            Text(timeline.title)
+                            Text(event.title)
                                 .fontWeight(.bold)
                                 .padding(.bottom, 10.0)
                                 .foregroundColor(.black.opacity(0.8))
@@ -50,6 +50,6 @@ struct TimelinePill: View {
 
 struct TimelinePill_Previews: PreviewProvider {
     static var previews: some View {
-        TimelinePill(timeline: collections[0].timelines[0])
+        EventPill(event: collections[0].events[0])
     }
 }
