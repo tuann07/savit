@@ -191,7 +191,6 @@
 		D362A827289522A600816AC9 /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				D3F667C928968662006BCEB0 /* RoundedRectangleAt.swift */,
 				D3D33F8D289691A5005CB217 /* MapView.swift */,
 			);
 			path = shared;
@@ -211,6 +210,7 @@
 		D3C3CB81289A2CE000B879AA /* event */ = {
 			isa = PBXGroup;
 			children = (
+				D3F667C928968662006BCEB0 /* RoundedRectangleAt.swift */,
 				D362A825289522A200816AC9 /* EventPill.swift */,
 				D3F667C7289679F1006BCEB0 /* EventList.swift */,
 			);
@@ -523,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Savit/Preview Content\"";
+				DEVELOPMENT_TEAM = A4WR464AX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -530,6 +531,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = .light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,6 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Savit/Preview Content\"";
+				DEVELOPMENT_TEAM = A4WR464AX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -558,6 +561,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = .light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -673,7 +677,7 @@
 				D362A80E2895206F00816AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D362A80F2895206F00816AC9 /* Build configuration list for PBXNativeTarget "Savit" */ = {
 			isa = XCConfigurationList;
@@ -682,7 +686,7 @@
 				D362A8112895206F00816AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D362A8122895206F00816AC9 /* Build configuration list for PBXNativeTarget "SavitTests" */ = {
 			isa = XCConfigurationList;
@@ -691,7 +695,7 @@
 				D362A8142895206F00816AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D362A8152895206F00816AC9 /* Build configuration list for PBXNativeTarget "SavitUITests" */ = {
 			isa = XCConfigurationList;
@@ -700,7 +704,7 @@
 				D362A8172895206F00816AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,15 @@
 
 import SwiftUI
 
+// create a rectangle with only some, or all rounded corners
 struct RoundedRectangleAt: View {
     var width: CGFloat
     var height: CGFloat
     var radius: CGFloat
-    var tl: Bool
-    var tr: Bool
-    var br: Bool
-    var bl: Bool
+    var tl: Bool = false
+    var tr: Bool = false
+    var br: Bool = false
+    var bl: Bool = false
     var bgColor: Color
     var text: Text
     

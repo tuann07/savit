@@ -20,8 +20,8 @@ struct DetailScreen: View {
                     HStack {
                         Text(event.note)
                             .fontWeight(.light)
-                            .font(.system(size: 14))
-                            .padding(.horizontal)
+                            .foregroundColor(.black.opacity(0.9))
+                            .padding()
                         Spacer()
                     }
                     
@@ -36,14 +36,14 @@ struct DetailScreen: View {
             ZStack {
                 ColorConstants.background.ignoresSafeArea()
                 
-                MapView(coordinate: event.locationCoordinate).edgesIgnoringSafeArea(.top)
+                MapView(coordinate: event.locationCoordinate)
             }
             .tabItem {
                 Image(systemName: "map.fill")
                 Text("Map")
             }
         }
-        .navigationTitle("\(event.title) - \(event.period)")
+        .navigationTitle("\(event.title) | \(event.period)")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

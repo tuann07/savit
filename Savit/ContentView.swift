@@ -11,12 +11,10 @@ struct ContentView: View {
     @State var isWelcome: Bool = true
     
     var body: some View {
-        ZStack {
-            if isWelcome {
-                WelcomeScreen(active: $isWelcome)
-            } else {
-                CollectionScreen()
-            }
+        if isWelcome {
+            WelcomeScreen(active: $isWelcome)
+        } else {
+            CollectionScreen()
         }
     }
 }

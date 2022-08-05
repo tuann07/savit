@@ -15,16 +15,31 @@ struct EventScreen: View {
             ColorConstants.background.ignoresSafeArea(.all)
             
             VStack {
-                Text("Events")
-                    .font(.system(.largeTitle))
-                    .fontWeight(.bold)
-                    .foregroundColor(ColorConstants.primary)
-                Text("\(collection.title) | \(collection.period)")
-                    .foregroundColor(ColorConstants.primary)
-                    .padding(.bottom)
+                collection.image
+                    .resizable()
+                    .scaledToFit()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(height: 120, alignment: .center)
+                    .clipped()
+                    .overlay(
+                        ZStack {
+                            LinearGradient(gradient:
+                                            Gradient(colors: [.black.opacity(0), .black]),startPoint: .top,endPoint: .bottom)
+                            VStack {
+                                Spacer()
+                                Text("Events")
+                                    .font(.system(.largeTitle))
+                                    .fontWeight(.bold)
+                                    .foregroundColor(ColorConstants.primary)
+                                Text("\(collection.title) | \(collection.period)")
+                                    .foregroundColor(ColorConstants.primary)
+                                    .padding(.bottom)
+                            }
+                        }
+                    )
                 
                 EventList(events: collection.events)
-                    .navigationTitle("")
+                    .navigationTitle(collection.title)
                     .navigationBarTitleDisplayMode(.inline)
             }
         }

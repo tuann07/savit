@@ -39,7 +39,6 @@ struct EventPill: View {
                         .fill(.white.opacity(0))
                         .overlay(
                             Text(event.title)
-                                .fontWeight(.bold)
                                 .padding(.bottom, 10.0)
                                 .foregroundColor(.black.opacity(0.8))
                         )
