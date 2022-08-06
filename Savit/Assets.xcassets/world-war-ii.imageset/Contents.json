@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "ton-that-tung.jpg",
+      "filename" : "world-war-ii.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ton-that-tung@2x.jpg",
+      "filename" : "world-war-ii@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ton-that-tung@3x.jpg",
+      "filename" : "world-war-ii@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

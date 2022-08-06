@@ -1,177 +1,166 @@
 [
     {
-      "id": 1,
-      "title": "Chiến tranh Đông Dương",
-      "period": "1945 - 1954",
-      "imageName": "chien-tranh-dong-duong",
-      "events": [
-        {
-          "id": 1,
-          "title": "Chiến dịch Biên giới Thu đông 1950",
-          "period": "1950",
-          "note": "Chiến dịch Biên giới Thu đông 1950 còn gọi là Chiến dịch Lê Hồng Phong 2, là một chiến dịch trong Chiến tranh Đông Dương do Quân đội nhân dân Việt Nam (được phía Pháp gọi là Việt Minh) thực hiện từ ngày 16 tháng 9 đến 14 tháng 10 năm 1950, nhằm phá vòng vây mà quân viễn chinh của Đệ tứ Cộng hòa Pháp bố trí nhằm cô lập của căn cứ địa Việt Bắc, từ đó khai thông biên giới Việt - Trung để mở đầu cầu tiếp nhận viện trợ của Liên Bang Xô Viết thông qua Cộng Hòa Nhân Dân Trung Hoa. Mặt khác, Việt Minh sẽ mở rộng căn cứ địa, làm tiêu hao sinh lực quân đồn trú Pháp, và thử nghiệm các chiến thuật của Quân đội Nhân dân Việt Nam cho các trận đánh lớn sau này.",
-          "coordinates": {
-            "latitude": 22.679228002770163,
-            "longitude": 106.22153056608835
-          }
-        },
-        {
-          "id": 2,
-          "title": "Đại hội đại biểu lần II của Đảng",
-          "period": "1951",
-          "note": "Sau 15 năm, 8 tháng kể từ Đại hội Đảng lần thứ nhất, Đại hội đại biểu toàn quốc lần thứ II họp từ ngày 11 đến 19-2-1951 tại xã Vinh Quang, Chiêm Hoá, Tuyên Quang.\nCó 158 đại biểu chính thức, 53 đại biểu dự khuyết thay mặt cho 766.000 đảng viên. Đại biểu Đảng Cộng sản Trung Quốc và Đảng Cộng sản Thái Lan. ",
-          "coordinates": {
-            "latitude": 22.091370670485375,
-            "longitude": 105.28835223189276
-          }
-        },
-        {
-          "id": 3,
-          "title": "Chiến cục Đông Xuân 1953–1954",
-          "period": "1953 - 1954",
-          "note": "Chiến cục Đông Xuân 1953 – 1954 là tên gọi để chỉ một chuỗi các cuộc tiến công chiến lược trên toàn chiến trường Đông Dương của lực lượng vũ trang Quân đội Nhân dân Việt Nam phối hợp với các lực lượng kháng chiến Lào, Campuchia trong chiến tranh Đông Dương (1945 – 1954). Mục đích nhằm đánh bại Kế hoạch Navarre, làm thất bại kế hoạch của Pháp và Mĩ muốn đảo ngược tình hình bằng một thắng lợi quyết định; làm thay đổi cục diện chiến tranh có lợi cho ba nước Đông Dương.",
-          "coordinates": {
-            "latitude": 17.454931084022128,
-            "longitude": 106.02420073499636
-          }
-        },
-        {
-          "id": 4,
-          "title": "Chiến dịch Điện Biên Phủ",
-          "period": "1954",
-          "note": "Trận Điện Biên Phủ, còn gọi là Chiến dịch Trần Đình là trận đánh lớn nhất trong Chiến tranh Đông Dương lần thứ nhất diễn ra tại lòng chảo Mường Thanh, châu Điện Biên, tỉnh Lai Châu (nay thuộc thành phố Điện Biên Phủ, tỉnh Điện Biên) giữa Quân đội Nhân dân Việt Nam và Quân đội Liên hiệp Pháp (gồm Lực lượng Viễn chinh Pháp, Binh đoàn Lê dương Pháp, quân phụ lực bản xứ và Quân đội Quốc gia Việt Nam).",
-          "coordinates": {
-            "latitude": 21.386944,
-            "longitude": 103.015556
-          }
-        },
-        {
-          "id": 5,
-          "title": "Hiệp định Genève, 1954",
-          "period": "1954",
-          "note": "Hiệp định Genève 1954 là hiệp định đình chiến được ký kết tại thành phố Genève, Thụy Sĩ nhằm khôi phục hòa bình ở Đông Dương. Hiệp định dẫn đến chấm dứt sự hiện diện của quân đội Pháp trên bán đảo Đông Dương và chính thức chấm dứt chế độ thực dân Pháp tại Đông Dương.",
-          "coordinates": {
-            "latitude": 46.19374428043543,
-            "longitude": 6.14879781525393
-          }
-        }
-      ]
+        "id": 1,
+        "title": "World War I",
+        "period": "1914 - 1918",
+        "imageName": "world-war-i",
+        "events": [
+            {
+                "id": 1,
+                "title": "Battle of Kolubara",
+                "period": "1914",
+                "note": "The Battle of Kolubara was fought between Austria-Hungary and Serbia in November and December 1914, during the Serbian Campaign of World War I.\nIt commenced on 16 November, when the Austro-Hungarians under the command of Oskar Potiorek reached the Kolubara River during their third invasion of Serbia that year, having captured the strategic town of Valjevo and forced the Serbian Army to undertake a series of retreats. The Serbs withdrew from Belgrade on 29–30 November, and the city soon fell under Austro-Hungarian control. On 2 December, the Serbian Army launched a surprise counter-attack all along the front. Valjevo and Užice were retaken by the Serbs on 8 December and the Austro-Hungarians retreated to Belgrade, which 5th Army commander Liborius Ritter von Frank deemed to be untenable. The Austro-Hungarians abandoned the city between 14 and 15 December and retreated back into Austria-Hungary, allowing the Serbs to retake their capital the following day.",
+                "coordinates": {
+                    "latitude": 44.41252684741081,
+                    "longitude": 20.219732300549527
+                }
+            },
+            {
+                "id": 2,
+                "title": "Battle of Mons",
+                "period": "1914",
+                "note": "The Battle of Mons was the first major action of the British Expeditionary Force (BEF) in the First World War. It was a subsidiary action of the Battle of the Frontiers, in which the Allies clashed with Germany on the French borders. At Mons, the British Army attempted to hold the line of the Mons–Condé Canal against the advancing German 1st Army. Although the British fought well and inflicted disproportionate casualties on the numerically superior Germans, they were eventually forced to retreat due both to the greater strength of the Germans and the sudden retreat of the French Fifth Army, which exposed the British right flank. Though initially planned as a simple tactical withdrawal and executed in good order, the British retreat from Mons lasted for two weeks and took the BEF to the outskirts of Paris before it counter-attacked in concert with the French, at the Battle of the Marne.",
+                "coordinates": {
+                    "latitude": 50.45601666771912,
+                    "longitude": 3.95163606877253
+                }
+            },
+            {
+                "id": 3,
+                "title": "Second Battle of Ypres",
+                "period": "1915",
+                "note": "During the First World War, the Second Battle of Ypres was fought from 22 April – 25 May 1915 for control of the tactically important high ground to the east and south of the Flemish town of Ypres in western Belgium. The First Battle of Ypres had been fought the previous autumn. The Second Battle of Ypres was the first mass use by Germany of poison gas on the Western Front.",
+                "coordinates": {
+                    "latitude": 50.89948292411605,
+                    "longitude": 2.940599792977508
+                }
+            },
+            {
+                "id": 4,
+                "title": "Battle of Dogger Bank",
+                "period": "1916",
+                "note": "The Battle of Dogger Bank on 10 February 1916 was a naval engagement between the Kaiserliche Marine of the German Empire and the Royal Navy of the United Kingdom, during the First World War. Three German torpedo boat flotillas sortied into the North Sea and encountered the British 10th Sloop Flotilla near Dogger Bank. The German vessels eventually engaged the British vessels, after mistaking them for cruisers instead of minesweeping sloops. Knowing they were out-gunned, the British attempted to flee and in the chase, the sloop HMS Arabis was sunk, before the British squadron escaped. As the cruisers of the Harwich Force returned to port, the light cruiser HMS Arethusa struck a mine, ran aground and broke in two. Although the Germans were victorious, they inflated the victory by reporting that they had sunk two cruisers.",
+                "coordinates": {
+                    "latitude": 54.99205308235621,
+                    "longitude": 2.9955054255268316
+                }
+            }
+        ]
     },
     {
-      "id": 2,
-      "title": "Chiến tranh Đông Dương",
-      "period": "1945 - 1954",
-      "imageName": "chien-tranh-dong-duong",
-      "events": [
-        {
-          "id": 1,
-          "title": "Chiến dịch Biên giới Thu đông 1950",
-          "period": "1950",
-          "note": "Chiến dịch Biên giới Thu đông 1950 còn gọi là Chiến dịch Lê Hồng Phong 2, là một chiến dịch trong Chiến tranh Đông Dương do Quân đội nhân dân Việt Nam (được phía Pháp gọi là Việt Minh) thực hiện từ ngày 16 tháng 9 đến 14 tháng 10 năm 1950, nhằm phá vòng vây mà quân viễn chinh của Đệ tứ Cộng hòa Pháp bố trí nhằm cô lập của căn cứ địa Việt Bắc, từ đó khai thông biên giới Việt - Trung để mở đầu cầu tiếp nhận viện trợ của Liên Bang Xô Viết thông qua Cộng Hòa Nhân Dân Trung Hoa. Mặt khác, Việt Minh sẽ mở rộng căn cứ địa, làm tiêu hao sinh lực quân đồn trú Pháp, và thử nghiệm các chiến thuật của Quân đội Nhân dân Việt Nam cho các trận đánh lớn sau này.",
-          "coordinates": {
-            "latitude": 22.679228002770163,
-            "longitude": 106.22153056608835
-          }
-        },
-        {
-          "id": 2,
-          "title": "Đại hội đại biểu lần II của Đảng",
-          "period": "1951",
-          "note": "Sau 15 năm, 8 tháng kể từ Đại hội Đảng lần thứ nhất, Đại hội đại biểu toàn quốc lần thứ II họp từ ngày 11 đến 19-2-1951 tại xã Vinh Quang, Chiêm Hoá, Tuyên Quang.\nCó 158 đại biểu chính thức, 53 đại biểu dự khuyết thay mặt cho 766.000 đảng viên. Đại biểu Đảng Cộng sản Trung Quốc và Đảng Cộng sản Thái Lan. ",
-          "coordinates": {
-            "latitude": 22.091370670485375,
-            "longitude": 105.28835223189276
-          }
-        },
-        {
-          "id": 3,
-          "title": "Chiến cục Đông Xuân 1953–1954",
-          "period": "1953 - 1954",
-          "note": "Chiến cục Đông Xuân 1953 – 1954 là tên gọi để chỉ một chuỗi các cuộc tiến công chiến lược trên toàn chiến trường Đông Dương của lực lượng vũ trang Quân đội Nhân dân Việt Nam phối hợp với các lực lượng kháng chiến Lào, Campuchia trong chiến tranh Đông Dương (1945 – 1954). Mục đích nhằm đánh bại Kế hoạch Navarre, làm thất bại kế hoạch của Pháp và Mĩ muốn đảo ngược tình hình bằng một thắng lợi quyết định; làm thay đổi cục diện chiến tranh có lợi cho ba nước Đông Dương.",
-          "coordinates": {
-            "latitude": 17.454931084022128,
-            "longitude": 106.02420073499636
-          }
-        },
-        {
-          "id": 4,
-          "title": "Chiến dịch Điện Biên Phủ",
-          "period": "1954",
-          "note": "Trận Điện Biên Phủ, còn gọi là Chiến dịch Trần Đình là trận đánh lớn nhất trong Chiến tranh Đông Dương lần thứ nhất diễn ra tại lòng chảo Mường Thanh, châu Điện Biên, tỉnh Lai Châu (nay thuộc thành phố Điện Biên Phủ, tỉnh Điện Biên) giữa Quân đội Nhân dân Việt Nam và Quân đội Liên hiệp Pháp (gồm Lực lượng Viễn chinh Pháp, Binh đoàn Lê dương Pháp, quân phụ lực bản xứ và Quân đội Quốc gia Việt Nam).",
-          "coordinates": {
-            "latitude": 21.386944,
-            "longitude": 103.015556
-          }
-        },
-        {
-          "id": 5,
-          "title": "Hiệp định Genève, 1954",
-          "period": "1954",
-          "note": "Hiệp định Genève 1954 là hiệp định đình chiến được ký kết tại thành phố Genève, Thụy Sĩ nhằm khôi phục hòa bình ở Đông Dương. Hiệp định dẫn đến chấm dứt sự hiện diện của quân đội Pháp trên bán đảo Đông Dương và chính thức chấm dứt chế độ thực dân Pháp tại Đông Dương.",
-          "coordinates": {
-            "latitude": 46.19374428043543,
-            "longitude": 6.14879781525393
-          }
-        }
-      ]
+        "id": 2,
+        "title": "World War II",
+        "period": "1939 - 1945",
+        "imageName": "world-war-ii",
+        "events": [
+            {
+                "id": 1,
+                "title": "Invasion of Poland",
+                "period": "1939",
+                "note": "The invasion of Poland (1 September – 6 October 1939), also known as the September campaign, 1939 defensive war and Poland campaign, was a joint attack on the Republic of Poland by Nazi Germany and the Soviet Union which marked the beginning of World War II.The German invasion began on 1 September 1939, one week after the signing of the Molotov–Ribbentrop Pact between Germany and the Soviet Union, and one day after the Supreme Soviet of the Soviet Union had approved the pact. The Soviets invaded Poland on 17 September. The campaign ended on 6 October with Germany and the Soviet Union dividing and annexing the whole of Poland under the terms of the German–Soviet Frontier Treaty.",
+                "coordinates": {
+                    "latitude": 51.8435503391731,
+                    "longitude": 15.429936208930341
+                }
+            },
+            {
+                "id": 2,
+                "title": "Battle of Britain",
+                "period": "1940",
+                "note": "The Battle of Britain, also known as the Air Battle for England, was a military campaign of the Second World War, in which the Royal Air Force (RAF) and the Fleet Air Arm (FAA) of the Royal Navy defended the United Kingdom (UK) against large-scale attacks by Nazi Germany's air force, the Luftwaffe. It has been described as the first major military campaign fought entirely by air forces.The British officially recognise the battle's duration as being from 10 July until 31 October 1940, which overlaps the period of large-scale night attacks known as the Blitz, that lasted from 7 September 1940 to 11 May 1941. German historians do not accept this subdivision and regard the battle as a single campaign lasting from July 1940 to May 1941, including the Blitz.",
+                "coordinates": {
+                    "latitude": 53.26854406371536,
+                    "longitude": -4.524897541701922
+                }
+            },
+            {
+                "id": 3,
+                "title": "Attack on Pearl Harbor",
+                "period": "1941",
+                "note": "The attack on Pearl Harbor was a surprise military strike by the Imperial Japanese Navy Air Service upon the United States against the naval base at Pearl Harbor in Honolulu, Territory of Hawaii, just before 8:00 a.m., on Sunday, December 7, 1941. The United States was a neutral country at the time; the attack led to its formal entry into World War II the next day. The Japanese military leadership referred to the attack as the Hawaii Operation and Operation AI, and as Operation Z during its planning.",
+                "coordinates": {
+                    "latitude": 21.442611322401223,
+                    "longitude": -158.00237767189347
+                }
+            },
+            {
+                "id": 4,
+                "title": "Battle of Midway",
+                "period": "1942",
+                "note": "The Battle of Midway was a major naval battle in the Pacific Theater of World War II that took place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle of the Coral Sea. The U.S. Navy under Admirals Chester W. Nimitz, Frank J. Fletcher, and Raymond A. Spruance defeated an attacking fleet of the Imperial Japanese Navy under Admirals Isoroku Yamamoto, Chūichi Nagumo, and Nobutake Kondō north of Midway Atoll, inflicting devastating damage on the Japanese fleet. Military historian John Keegan called it 'the most stunning and decisive blow in the history of naval warfare', while naval historian Craig Symonds called it 'one of the most consequential naval engagements in world history, ranking alongside Salamis, Trafalgar, and Tsushima Strait, as both tactically decisive and strategically influential'.",
+                "coordinates": {
+                    "latitude": 30.000037147664973,
+                    "longitude": -177.99998927317534
+                }
+            },
+            {
+                "id": 5,
+                "title": "Battle of the Bulge",
+                "period": "1944 - 1945",
+                "note": "The Battle of the Bulge, also known as the Ardennes Offensive, was the last major German offensive campaign on the Western Front during World War II. The offensive was carried out from 16 December 1944 to 25 January 1945, towards the end of the war in Europe. It was launched through the densely forested Ardennes region between Belgium and Luxembourg.",
+                "coordinates": {
+                    "latitude": 50.24996605856828,
+                    "longitude": 5.666600111974943
+                }
+            }
+        ]
     },
     {
-      "id": 3,
-      "title": "Chiến tranh Đông Dương",
-      "period": "1945 - 1954",
-      "imageName": "chien-tranh-dong-duong",
-      "events": [
-        {
-          "id": 1,
-          "title": "Chiến dịch Biên giới Thu đông 1950",
-          "period": "1950",
-          "note": "Chiến dịch Biên giới Thu đông 1950 còn gọi là Chiến dịch Lê Hồng Phong 2, là một chiến dịch trong Chiến tranh Đông Dương do Quân đội nhân dân Việt Nam (được phía Pháp gọi là Việt Minh) thực hiện từ ngày 16 tháng 9 đến 14 tháng 10 năm 1950, nhằm phá vòng vây mà quân viễn chinh của Đệ tứ Cộng hòa Pháp bố trí nhằm cô lập của căn cứ địa Việt Bắc, từ đó khai thông biên giới Việt - Trung để mở đầu cầu tiếp nhận viện trợ của Liên Bang Xô Viết thông qua Cộng Hòa Nhân Dân Trung Hoa. Mặt khác, Việt Minh sẽ mở rộng căn cứ địa, làm tiêu hao sinh lực quân đồn trú Pháp, và thử nghiệm các chiến thuật của Quân đội Nhân dân Việt Nam cho các trận đánh lớn sau này.",
-          "coordinates": {
-            "latitude": 22.679228002770163,
-            "longitude": 106.22153056608835
-          }
-        },
-        {
-          "id": 2,
-          "title": "Đại hội đại biểu lần II của Đảng",
-          "period": "1951",
-          "note": "Sau 15 năm, 8 tháng kể từ Đại hội Đảng lần thứ nhất, Đại hội đại biểu toàn quốc lần thứ II họp từ ngày 11 đến 19-2-1951 tại xã Vinh Quang, Chiêm Hoá, Tuyên Quang.\nCó 158 đại biểu chính thức, 53 đại biểu dự khuyết thay mặt cho 766.000 đảng viên. Đại biểu Đảng Cộng sản Trung Quốc và Đảng Cộng sản Thái Lan. ",
-          "coordinates": {
-            "latitude": 22.091370670485375,
-            "longitude": 105.28835223189276
-          }
-        },
-        {
-          "id": 3,
-          "title": "Chiến cục Đông Xuân 1953–1954",
-          "period": "1953 - 1954",
-          "note": "Chiến cục Đông Xuân 1953 – 1954 là tên gọi để chỉ một chuỗi các cuộc tiến công chiến lược trên toàn chiến trường Đông Dương của lực lượng vũ trang Quân đội Nhân dân Việt Nam phối hợp với các lực lượng kháng chiến Lào, Campuchia trong chiến tranh Đông Dương (1945 – 1954). Mục đích nhằm đánh bại Kế hoạch Navarre, làm thất bại kế hoạch của Pháp và Mĩ muốn đảo ngược tình hình bằng một thắng lợi quyết định; làm thay đổi cục diện chiến tranh có lợi cho ba nước Đông Dương.",
-          "coordinates": {
-            "latitude": 17.454931084022128,
-            "longitude": 106.02420073499636
-          }
-        },
-        {
-          "id": 4,
-          "title": "Chiến dịch Điện Biên Phủ",
-          "period": "1954",
-          "note": "Trận Điện Biên Phủ, còn gọi là Chiến dịch Trần Đình là trận đánh lớn nhất trong Chiến tranh Đông Dương lần thứ nhất diễn ra tại lòng chảo Mường Thanh, châu Điện Biên, tỉnh Lai Châu (nay thuộc thành phố Điện Biên Phủ, tỉnh Điện Biên) giữa Quân đội Nhân dân Việt Nam và Quân đội Liên hiệp Pháp (gồm Lực lượng Viễn chinh Pháp, Binh đoàn Lê dương Pháp, quân phụ lực bản xứ và Quân đội Quốc gia Việt Nam).",
-          "coordinates": {
-            "latitude": 21.386944,
-            "longitude": 103.015556
-          }
-        },
-        {
-          "id": 5,
-          "title": "Hiệp định Genève, 1954",
-          "period": "1954",
-          "note": "Hiệp định Genève 1954 là hiệp định đình chiến được ký kết tại thành phố Genève, Thụy Sĩ nhằm khôi phục hòa bình ở Đông Dương. Hiệp định dẫn đến chấm dứt sự hiện diện của quân đội Pháp trên bán đảo Đông Dương và chính thức chấm dứt chế độ thực dân Pháp tại Đông Dương.",
-          "coordinates": {
-            "latitude": 46.19374428043543,
-            "longitude": 6.14879781525393
-          }
-        }
-      ]
+        "id": 3,
+        "title": "Chiến tranh Đông Dương",
+        "period": "1945 - 1954",
+        "imageName": "chien-tranh-dong-duong",
+        "events": [
+            {
+                "id": 1,
+                "title": "Chiến dịch Biên giới Thu đông 1950",
+                "period": "1950",
+                "note": "Chiến dịch Biên giới Thu đông 1950 còn gọi là Chiến dịch Lê Hồng Phong 2, là một chiến dịch trong Chiến tranh Đông Dương do Quân đội nhân dân Việt Nam (được phía Pháp gọi là Việt Minh) thực hiện từ ngày 16 tháng 9 đến 14 tháng 10 năm 1950, nhằm phá vòng vây mà quân viễn chinh của Đệ tứ Cộng hòa Pháp bố trí nhằm cô lập của căn cứ địa Việt Bắc, từ đó khai thông biên giới Việt - Trung để mở đầu cầu tiếp nhận viện trợ của Liên Bang Xô Viết thông qua Cộng Hòa Nhân Dân Trung Hoa. Mặt khác, Việt Minh sẽ mở rộng căn cứ địa, làm tiêu hao sinh lực quân đồn trú Pháp, và thử nghiệm các chiến thuật của Quân đội Nhân dân Việt Nam cho các trận đánh lớn sau này.",
+                "coordinates": {
+                    "latitude": 22.679228002770163,
+                    "longitude": 106.22153056608835
+                }
+            },
+            {
+                "id": 2,
+                "title": "Đại hội đại biểu lần II của Đảng",
+                "period": "1951",
+                "note": "Sau 15 năm, 8 tháng kể từ Đại hội Đảng lần thứ nhất, Đại hội đại biểu toàn quốc lần thứ II họp từ ngày 11 đến 19-2-1951 tại xã Vinh Quang, Chiêm Hoá, Tuyên Quang.\nCó 158 đại biểu chính thức, 53 đại biểu dự khuyết thay mặt cho 766.000 đảng viên. Đại biểu Đảng Cộng sản Trung Quốc và Đảng Cộng sản Thái Lan. ",
+                "coordinates": {
+                    "latitude": 22.091370670485375,
+                    "longitude": 105.28835223189276
+                }
+            },
+            {
+                "id": 3,
+                "title": "Chiến cục Đông Xuân 1953–1954",
+                "period": "1953 - 1954",
+                "note": "Chiến cục Đông Xuân 1953 – 1954 là tên gọi để chỉ một chuỗi các cuộc tiến công chiến lược trên toàn chiến trường Đông Dương của lực lượng vũ trang Quân đội Nhân dân Việt Nam phối hợp với các lực lượng kháng chiến Lào, Campuchia trong chiến tranh Đông Dương (1945 – 1954). Mục đích nhằm đánh bại Kế hoạch Navarre, làm thất bại kế hoạch của Pháp và Mĩ muốn đảo ngược tình hình bằng một thắng lợi quyết định; làm thay đổi cục diện chiến tranh có lợi cho ba nước Đông Dương.",
+                "coordinates": {
+                    "latitude": 17.454931084022128,
+                    "longitude": 106.02420073499636
+                }
+            },
+            {
+                "id": 4,
+                "title": "Chiến dịch Điện Biên Phủ",
+                "period": "1954",
+                "note": "Trận Điện Biên Phủ, còn gọi là Chiến dịch Trần Đình là trận đánh lớn nhất trong Chiến tranh Đông Dương lần thứ nhất diễn ra tại lòng chảo Mường Thanh, châu Điện Biên, tỉnh Lai Châu (nay thuộc thành phố Điện Biên Phủ, tỉnh Điện Biên) giữa Quân đội Nhân dân Việt Nam và Quân đội Liên hiệp Pháp (gồm Lực lượng Viễn chinh Pháp, Binh đoàn Lê dương Pháp, quân phụ lực bản xứ và Quân đội Quốc gia Việt Nam).",
+                "coordinates": {
+                    "latitude": 21.386944,
+                    "longitude": 103.015556
+                }
+            },
+            {
+                "id": 5,
+                "title": "Hiệp định Genève, 1954",
+                "period": "1954",
+                "note": "Hiệp định Genève 1954 là hiệp định đình chiến được ký kết tại thành phố Genève, Thụy Sĩ nhằm khôi phục hòa bình ở Đông Dương. Hiệp định dẫn đến chấm dứt sự hiện diện của quân đội Pháp trên bán đảo Đông Dương và chính thức chấm dứt chế độ thực dân Pháp tại Đông Dương.",
+                "coordinates": {
+                    "latitude": 46.19374428043543,
+                    "longitude": 6.14879781525393
+                }
+            }
+        ]
     }
-  ]
-  
+]

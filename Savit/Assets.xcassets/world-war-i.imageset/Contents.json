@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "vo-nguyen-giap.jpg",
+      "filename" : "world-war-i.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "vo-nguyen-giap@2x.jpg",
+      "filename" : "world-war-i@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "vo-nguyen-giap@3x.jpg",
+      "filename" : "world-war-i@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
