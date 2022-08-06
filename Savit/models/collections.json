@@ -65,6 +65,16 @@
             },
             {
                 "id": 2,
+                "title": "Dunkirk evacuation",
+                "period": "1940",
+                "note": "The Dunkirk evacuation, codenamed Operation Dynamo and also known as the Miracle of Dunkirk, or just Dunkirk, was the evacuation of more than 338,000 Allied soldiers during the Second World War from the beaches and harbour of Dunkirk, in the north of France, between 26 May and 4 June 1940. The operation commenced after large numbers of Belgian, British, and French troops were cut off and surrounded by German troops during the six-week Battle of France. In a speech to the House of Commons, British Prime Minister Winston Churchill called this 'a colossal military disaster', saying 'the whole root and core and brain of the British Army' had been stranded at Dunkirk and seemed about to perish or be captured. In his 'We shall fight on the beaches' speech on 4 June, he hailed their rescue as a 'miracle of deliverance'.",
+                "coordinates": {
+                    "latitude": 51.03334647360641,
+                    "longitude": 2.366677727555492
+                }
+            },
+            {
+                "id": 3,
                 "title": "Battle of Britain",
                 "period": "1940",
                 "note": "The Battle of Britain, also known as the Air Battle for England, was a military campaign of the Second World War, in which the Royal Air Force (RAF) and the Fleet Air Arm (FAA) of the Royal Navy defended the United Kingdom (UK) against large-scale attacks by Nazi Germany's air force, the Luftwaffe. It has been described as the first major military campaign fought entirely by air forces.The British officially recognise the battle's duration as being from 10 July until 31 October 1940, which overlaps the period of large-scale night attacks known as the Blitz, that lasted from 7 September 1940 to 11 May 1941. German historians do not accept this subdivision and regard the battle as a single campaign lasting from July 1940 to May 1941, including the Blitz.",
@@ -74,7 +84,17 @@
                 }
             },
             {
-                "id": 3,
+                "id": 4,
+                "title": "Operation Barbarossa",
+                "period": "1941",
+                "note": "Operation Barbarossa was the invasion of the Soviet Union by Nazi Germany and many of its Axis allies, starting on Sunday, 22 June 1941, during World War II. The operation, code-named after Frederick Barbarossa ('red beard'), a 12th-century Holy Roman emperor and German king, put into action Nazi Germany's ideological goal of conquering the western Soviet Union to repopulate it with Germans. The German Generalplan Ost aimed to use some of the conquered people as forced labour for the Axis war effort while acquiring the oil reserves of the Caucasus as well as the agricultural resources of various Soviet territories. Their ultimate goal was to create more Lebensraum (living space) for Germany, and the eventual extermination of the indigenous Slavic peoples by mass deportation to Siberia, Germanisation, enslavement, and genocide.",
+                "coordinates": {
+                    "latitude": 62.46939489092237,
+                    "longitude": 12.519514953596204
+                }
+            },
+            {
+                "id": 5,
                 "title": "Attack on Pearl Harbor",
                 "period": "1941",
                 "note": "The attack on Pearl Harbor was a surprise military strike by the Imperial Japanese Navy Air Service upon the United States against the naval base at Pearl Harbor in Honolulu, Territory of Hawaii, just before 8:00 a.m., on Sunday, December 7, 1941. The United States was a neutral country at the time; the attack led to its formal entry into World War II the next day. The Japanese military leadership referred to the attack as the Hawaii Operation and Operation AI, and as Operation Z during its planning.",
@@ -84,7 +104,17 @@
                 }
             },
             {
-                "id": 4,
+                "id": 6,
+                "title": "Fall of Singapore",
+                "period": "1942",
+                "note": "The Fall of Singapore, also known as the Battle of Singapore, took place in the South–East Asian theatre of the Pacific War. The Empire of Japan captured the British stronghold of Singapore, with fighting lasting from 8 to 15 February 1942. Singapore was the foremost British military base and economic port in South–East Asia and had been of great importance to British interwar defence strategy. The capture of Singapore resulted in the largest British surrender in its history.",
+                "coordinates": {
+                    "latitude": 1.352510724864461,
+                    "longitude": 103.76891045594193
+                }
+            },
+            {
+                "id": 7,
                 "title": "Battle of Midway",
                 "period": "1942",
                 "note": "The Battle of Midway was a major naval battle in the Pacific Theater of World War II that took place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle of the Coral Sea. The U.S. Navy under Admirals Chester W. Nimitz, Frank J. Fletcher, and Raymond A. Spruance defeated an attacking fleet of the Imperial Japanese Navy under Admirals Isoroku Yamamoto, Chūichi Nagumo, and Nobutake Kondō north of Midway Atoll, inflicting devastating damage on the Japanese fleet. Military historian John Keegan called it 'the most stunning and decisive blow in the history of naval warfare', while naval historian Craig Symonds called it 'one of the most consequential naval engagements in world history, ranking alongside Salamis, Trafalgar, and Tsushima Strait, as both tactically decisive and strategically influential'.",
@@ -94,7 +124,17 @@
                 }
             },
             {
-                "id": 5,
+                "id": 8,
+                "title": "Allied invasion of Italy",
+                "period": "1943",
+                "note": "The Allied invasion of Italy was the Allied amphibious landing on mainland Italy that took place from 3 September 1943, during the Italian campaign of World War II. The operation was undertaken by General Sir Harold Alexander's 15th Army Group (comprising General Mark W. Clark's American Fifth Army and General Bernard Montgomery's British Eighth Army) and followed the successful Allied Invasion of Sicily. The main invasion force landed around Salerno on 9 September on the western coast in Operation Avalanche, while two supporting operations took place in Calabria (Operation Baytown) and Taranto (Operation Slapstick).",
+                "coordinates": {
+                    "latitude": 40.68248410546685,
+                    "longitude": 14.768193657740984
+                }
+            },
+            {
+                "id": 9,
                 "title": "Battle of the Bulge",
                 "period": "1944 - 1945",
                 "note": "The Battle of the Bulge, also known as the Ardennes Offensive, was the last major German offensive campaign on the Western Front during World War II. The offensive was carried out from 16 December 1944 to 25 January 1945, towards the end of the war in Europe. It was launched through the densely forested Ardennes region between Belgium and Luxembourg.",
