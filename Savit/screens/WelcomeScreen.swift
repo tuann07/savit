@@ -22,6 +22,7 @@ struct WelcomeScreen: View {
             VStack(spacing: 20){
                 Spacer()
                 
+                // MARK: text
                 VStack(spacing: 0) {
                     Text("Savit")
                         .font(.system(size: 60))
@@ -38,6 +39,7 @@ struct WelcomeScreen: View {
                 
                 Spacer()
                 
+                // MARK: button
                 Button(action: {
                     active = false
                 }, label: {

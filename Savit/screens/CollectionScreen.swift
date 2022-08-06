@@ -19,6 +19,7 @@ struct CollectionScreen: View {
                 ColorConstants.background.ignoresSafeArea(.all)
                 
                 VStack {
+                    // MARK: title
                     Text("Your Collections")
                         .font(.system(.largeTitle))
                         .fontWeight(.bold)
@@ -27,6 +28,7 @@ struct CollectionScreen: View {
                     
                     Spacer()
                     
+                    // MARK: list
                     CollectionList(collections: collections)
                         .navigationTitle("")
                         .navigationBarTitleDisplayMode(.inline)

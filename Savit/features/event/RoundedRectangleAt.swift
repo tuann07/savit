@@ -17,10 +17,10 @@ struct RoundedRectangleAt: View {
     var width: CGFloat
     var height: CGFloat
     var radius: CGFloat
-    var tl: Bool = false
-    var tr: Bool = false
-    var br: Bool = false
-    var bl: Bool = false
+    var tl: Bool = false  // top left
+    var tr: Bool = false  // top right
+    var br: Bool = false  // bottom right
+    var bl: Bool = false  // bottom left
     var bgColor: Color
     var text: Text
     

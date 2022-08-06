@@ -20,6 +20,7 @@ struct EventScreen: View {
             ColorConstants.background.ignoresSafeArea(.all)
             
             VStack {
+                // MARK: title and image
                 collection.image
                     .resizable()
                     .scaledToFit()
@@ -43,6 +44,7 @@ struct EventScreen: View {
                         }
                     )
                 
+                // MARK: list
                 EventList(events: collection.events)
                     .navigationTitle(collection.title)
                     .navigationBarTitleDisplayMode(.inline)

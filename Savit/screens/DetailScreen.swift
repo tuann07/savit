@@ -18,6 +18,7 @@ struct DetailScreen: View {
     
     var body: some View {
         TabView {
+            // MARK: note tab
             ZStack {
                 ColorConstants.background.ignoresSafeArea(.all)
                 
@@ -38,6 +39,7 @@ struct DetailScreen: View {
                 Text("Note")
             }
             
+            // MARK: map tab
             ZStack {
                 ColorConstants.background.ignoresSafeArea()
                 
